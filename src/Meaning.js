@@ -8,14 +8,14 @@ import Synonyms from "./Synonyms";
 export default function Meaning(props) {
   return (
     <div className="Meaning">
-      <h3 className="p-2 text-decoration-underline">
+      <h4 className="text-decoration-underline">
         {props.meaning.partOfSpeech}
-      </h3>
+      </h4>
       {props.meaning.definitions.map(function (definition, index) {
         return (
-          <div key={index}>
-            <strong>Definition: </strong>
-            <em>{definition.definition}</em>
+          <div key={index} className="p-1">
+            <strong>{index + 1}. </strong>
+            <span>{definition.definition}</span>
             <Example example={definition.example} />
           </div>
         );

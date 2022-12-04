@@ -1,0 +1,12 @@
+.Dictionary section {
+  background-color: #fff;
+  border-radius: 15px;
+  padding: 30px;
+  margin: 20px 0;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.Dictionary .heading {
+  color: #fff;
+  letter-spacing: 0.3em;
+}

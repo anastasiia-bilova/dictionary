@@ -35,15 +35,19 @@ export default function Dictionary(props) {
   if (loaded) {
     return (
       <div className="Dictionary">
-        <h2 className="p-5">What word do you want to look up?</h2>
-        <form onSubmit={handleSubmit} autoComplete="off">
-          <input
-            type="search"
-            className="form-control"
-            onChange={handleKeywordChange}
-            placeholder="Search for location"
-          />
-        </form>
+        <h1 className="mt-3 heading">DICTIONARY</h1>
+        <section>
+          <h4>What word do you want to look up?</h4>
+          <form onSubmit={handleSubmit} autoComplete="off">
+            <input
+              type="search"
+              className="form-control shadow-none"
+              onChange={handleKeywordChange}
+              placeholder="Search for location"
+              defaultValue={props.defaultKeyword}
+            />
+          </form>
+        </section>
         <Results results={results} />
       </div>
     );
