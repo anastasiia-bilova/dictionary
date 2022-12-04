@@ -10,15 +10,13 @@ export default function Results(props) {
       <div className="Results">
         <section>
           <h3>{props.results.word}</h3>
-          <div className="d-flex justify-content-evenly">
-            {props.results.phonetics.map(function (phonetic, index) {
-              return (
-                <div key={index}>
-                  <Phonetic phonetic={phonetic} />
-                </div>
-              );
-            })}
-          </div>
+          {props.results.phonetics.map(function (phonetic, index) {
+            return (
+              <div key={index}>
+                <Phonetic phonetic={phonetic} />
+              </div>
+            );
+          })}
         </section>
         {props.results.meanings.map(function (meaning, index) {
           return (
