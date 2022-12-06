@@ -1,5 +1,5 @@
 .Synonyms ul {
-  margin: 20px 0 0;
+  margin: 8px 0 0;
   padding: 0;
 }
 
@@ -8,4 +8,5 @@
   border: 1px solid blue;
   margin: 5px;
   padding: 5px;
+  color: blue;
 }
