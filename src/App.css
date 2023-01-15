@@ -1,5 +1,13 @@
 .App {
-  text-align: center;
   margin: 0 auto;
   max-width: 960px;
+}
+
+.App .caption a {
+  font-family: "Poppins", sans-serif;
+  color: #212529;
+  text-decoration: none;
+  line-height: 1;
+  font-size: 13px;
+  transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
 }
