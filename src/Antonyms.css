@@ -1,14 +1,14 @@
-.Synonyms ul {
+.Antonyms ul {
   margin: 8px 22px 0;
   padding: 0;
 }
 
-.Synonyms li {
+.Antonyms li {
   display: inline-block;
-  border: 1px solid #047bff;
+  border: 1px solid #c90e11;
   border-radius: 3px;
   margin: 4px;
   padding: 4px;
-  color: #047bff;
+  color: #c90e11;
   font-size: 14px;
 }
