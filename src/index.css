@@ -3,9 +3,7 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/056/024/original/275286806_737036990643807_5796014597089799301_n.jpeg?1669990506");
+  background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/062/040/original/360_F_520061593_ukrjpBJmXxRHy3GWjErO7joryhmYearx.jpg?1673280602");
   background-repeat: no-repeat;
   background-size: cover;
 }
