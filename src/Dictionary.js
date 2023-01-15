@@ -9,7 +9,7 @@ export default function Dictionary(props) {
   const [keyword, setKeyword] = useState(props.defaultKeyword);
   const [results, setResults] = useState(null);
   const [loaded, setLoaded] = useState(false);
-  const [photos, setPhotos] = useState(null);
+  const [photos, setPhotos] = useState([]);
 
   function handleDictionaryResponse(response) {
     setResults(response.data[0]);
@@ -47,9 +47,11 @@ export default function Dictionary(props) {
   if (loaded) {
     return (
       <div className="Dictionary">
-        <h1 className="mt-3 heading">DICTIONARY</h1>
+        <h1 className="mt-3 heading text-center">DICTIONARY</h1>
         <section>
-          <h4>What word do you want to look up?</h4>
+          <p className="fs-6 fw-bolder mb-0">
+            What word do you want to look up?
+          </p>
           <form onSubmit={handleSubmit} autoComplete="off">
             <input
               type="search"
